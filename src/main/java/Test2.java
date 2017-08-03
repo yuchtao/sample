@@ -6,4 +6,7 @@ public class Test2 {
     public String toString() {
         return super.toString();
     }
+    public static void main(String[] args) {
+        String a = "";
+    }
 }
