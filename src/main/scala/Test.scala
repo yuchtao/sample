@@ -5,6 +5,9 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object Test {
   def main(args: Array[String]) {
+
+
+
     val conf = new SparkConf().setAppName("Spark WordCount")
     conf.setMaster("yarn-client")
     // 该参数是否添加只会影响是否显示Warn——hdp.version is not found

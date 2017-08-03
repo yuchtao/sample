@@ -21,38 +21,6 @@
             <version>${scala.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-core</artifactId>
-            <scope>system</scope>
-            <version>1.10.60</version>
-            <systemPath>${pom.basedir}\src\lib\aws-java-sdk-core-1.10.6.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-kms</artifactId>
-            <scope>system</scope>
-            <version>1.10.60</version>
-            <systemPath>${pom.basedir}\src\lib\aws-java-sdk-kms-1.10.6.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-s3</artifactId>
-            <scope>system</scope>
-            <version>1.10.60</version>
-            <systemPath>${pom.basedir}\src\lib\aws-java-sdk-s3-1.10.6.jar</systemPath>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-core_2.10</artifactId>
-            <scope>system</scope>
-            <version>1.6.2.2.5.0.0-1245</version>
-            <systemPath>${pom.basedir}\src\lib\spark-assembly-1.6.2.2.5.0.0-1245-hadoop2.7.3.2.5.0.0-1245.jar
-            </systemPath>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
